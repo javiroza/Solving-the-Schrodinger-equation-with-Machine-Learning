@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 device='cpu' # stores the ANN in the CPU 
 seed = 1
 torch.manual_seed(seed) # Prevents the seed from changing at every run
-save = False # if set to True, saves the model parameters and the plot
+save = True # if set to True, saves the model parameters and the plot
 epochs = 10000
 
 # General parameters
