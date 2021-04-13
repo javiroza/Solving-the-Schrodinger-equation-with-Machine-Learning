@@ -5,6 +5,8 @@ of the Deuteron. Starting from a 'blank' ANN with 4Nhid parameters and a single 
 wavefunction in a Rayleigh-Ritz minimisation scheme, with the parameters being the 4Nhid ANN parameters. This 
 program is the first step towards the energy minimisation: we train the ANN to take the form of an ansatz physical 
 wavefunction to start with, and we do so by maximising the overlap of the ANN and the ansatz function. 
+
+Note: if you do not wish to store the image and the model in a file, set the 'save' parameter to 'False'
 """
 import torch, time, integrator, math
 from torch import nn
